@@ -270,6 +270,17 @@ footer {
   color: #fafafa;
 }
 
+/* Gallery page */
+#photos img{
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
+
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
