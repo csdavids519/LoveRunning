@@ -1,5 +1,8 @@
-/*  wildcard selector to override default styles adds by the browser  */
+/*  Goolgle fonts inport */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
+
+/*  wildcard selector to override default styles adds by the browser  */
 * {
   margin: 0;
   padding: 0;
