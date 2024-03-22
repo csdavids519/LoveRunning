@@ -139,6 +139,26 @@ hr {
   margin: 5px 0;
 }
 
+
+/* reasons image */
+#circle-cover-bg {
+  height: 90vw;
+  width: 90vw;
+  background: url("../assets/images/reasons-image.webp") no-repeat top center/cover;
+  margin-bottom: 20px;
+  /* Make image a circle */
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* Footer */
 footer {
 #social-networks {
