@@ -47,6 +47,18 @@ header a {
   border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navbar styles with dropdown */
+nav {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  width: 100%;
+  left: 0;
+  box-shadow: 0 2px 2px #3a3a3a ;
+  display: none;
+}
+
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
