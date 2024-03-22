@@ -1,3 +1,28 @@
+/*  wildcard selector to override default styles adds by the browser  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: lightcoral;
+}
+
+main{
+  background-color: lightblue;
+}
+
+footer {
+  background-color: orange;
+}
+
+
+
+
+ /* 
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,3 +75,5 @@ ul {
   p{ 
     color: pink;
   }
+
+  */
