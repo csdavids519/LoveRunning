@@ -28,11 +28,12 @@ h3 {
   color: #252525;
 }
 
-.hidden-heading{
+.hidden-heading {
   display: none;
 
 
 }
+
 header {
   background-color: #ffffff;
   padding: 0 1rem;
@@ -227,7 +228,7 @@ footer {
 }
 
 /* Gallery page */
-#photos img{
+#photos img {
   width: 100%;
   line-height: 1em;
 }
@@ -238,10 +239,11 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-  #photos{
+  #photos {
     column-count: 2;
     column-gap: 0;
   }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -286,42 +288,58 @@ footer {
   }
 }
 
-/* Media query: laptops and larger (992px and up) */
-@media screen and (min-width: 992px) {
-  #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+/* Gallery */
+#photos {
+  column-count: 3;
+  column-gap: 0;
+}
+
+  /* Media query: laptops and larger (992px and up) */
+  @media screen and (min-width: 992px) {
+    #menu a:hover {
+      border-bottom: 1px solid #3a3a3a;
+    }
+
+  /* Gallery */
+  #photos {
+    column-count: 4;
+    column-gap: 0;
   }
 }
 
+  /* Media query: PC and larger (1200px and up) */
+  @media screen and (min-width: 1200px) {
+
+    /* reasons section */
+    #benefits {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #benefits>div {
+      flex: 1;
+    }
+
+    #benefits-image {
+      order: 0;
+    }
+
+    #benefits-mental {
+      order: 1;
+    }
+
+    #benefits-mental>div {
+      align-self: flex-start;
+    }
 
 
-/* Media query: PC and larger (1200px and up) */
-@media screen and (min-width: 1200px) {
+    #benefits-physical>div {
+      align-self: flex-end;
+    }
 
-  /* reasons section */
-  #benefits {
-    display: flex;
-    flex-direction: row;
+    /* Gallery */
+    #photos {
+      column-count: 4;
+      column-gap: 0;
+    }
   }
-
-  #benefits>div {
-    flex: 1;
-  }
-
-  #benefits-image {
-    order: 0;
-  }
-
-  #benefits-mental {
-    order: 1;
-  }
-
-  #benefits-mental>div {
-    align-self: flex-start;
-  }
-
-
-  #benefits-physical>div {
-    align-self: flex-end;
-  }
-}
