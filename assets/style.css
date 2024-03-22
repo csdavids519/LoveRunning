@@ -28,6 +28,11 @@ h3 {
   color: #252525;
 }
 
+.hidden-heading{
+  display: none;
+
+
+}
 header {
   background-color: #ffffff;
   padding: 0 1rem;
